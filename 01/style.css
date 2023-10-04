@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 50px;
+}
+body {
+  background-color: rgb(67, 64, 64);
+}
+.container img {
+  width: 150px;
+  padding: 3px;
+  background: linear-gradient(
+    130deg,
+    red,
+    purple,
+    blue,
+    green,
+    white,
+    yellow,
+    blue
+  );
+  border-radius: 50%;
+}
